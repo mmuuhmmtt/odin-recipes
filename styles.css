@@ -1,0 +1,32 @@
+* { /* evrensel secici tum ogeye uygular */
+color: green;
+}
+
+h1 { /* tip secici belli bir ogeyi vurgular */
+    color: black;
+}
+
+.alart-text{ /* sinif seciciler html de verdigimiz siniflara uygular bosluk birakarak 2 sinif da verebiliriz */
+    color: red;
+}
+
+#title {/*kimlik seciciler sinifa benzer tek fark bir ogenin tek kimlige sahip olmasi*/
+    background-color: aqua;
+}
+
+.class1,/* bu sekilde iki sinif icin tekrar tekrar yazmak yerine virgulle ayirabiliriz */
+.class2{
+    color: white;
+    background-color: black;
+}
+
+.sub.footer{/*iki class tanimladik ikiside sub ile basliyor ve sonlari farkli bu sekilde birbirlerinden ayirabiliyoruz */
+    background-color: orange;
+}
+.sub#prew{ /* bu sekilde ayni isimle baslayan 3 clasi id ile de farkli olarak belirtebiliriz */
+    background-color: brown;
+}
+
+.ancestor .contents{ /* ancestor clasi altindaki contentsi sec demek */
+    background-color: pink;
+}
